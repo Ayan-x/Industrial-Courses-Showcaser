@@ -11,7 +11,7 @@ function Cards({courses,category}){
         let allCourses = [];
 
         Object.values(courses).forEach(
-            array =>{
+            (array) =>{
                 array.forEach(courseData=>{
                     allCourses.push(courseData);
                 })

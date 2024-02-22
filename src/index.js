@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
   <App />
-  <ToastContainer/>
+  <ToastContainer />
   </div>
   
   // </React.StrictMode>
