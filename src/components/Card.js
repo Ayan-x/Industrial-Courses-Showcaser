@@ -47,12 +47,10 @@ function Card({course,likedCourses,setLikedCourses}){
                 :(course.description)
                 }
                 </p>
-            </div>
-            
+            </div>  
             
             
         </div>
     )
-
 }
 export default Card;
