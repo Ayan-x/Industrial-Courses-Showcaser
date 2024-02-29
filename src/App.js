@@ -31,7 +31,7 @@ const App = () => {
     
   return (
    
-  <div className="min-h-screen flex flex-col bg-bgDark2">
+  <div className="min-h-screen flex flex-col bg-bgDark3">
     <div >
     <NavBar />
 
