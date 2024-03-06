@@ -12,7 +12,7 @@ function Filter( {filterData, category, setCategory}){
             {
                 filterData.map( (data) =>{
                  return( 
-                      <button className={` text-lg px-2 py-1 rounded-md
+                      <button className={` text-lg px-2 py-2 rounded-md
                       font-medium text-white bg-black hover:bg-opacity-50
                       border-2 transition-all duration-300
                       ${category === data.title ?
