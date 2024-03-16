@@ -44,7 +44,7 @@ const App = () => {
      setCategory = {setCategory}
      />
     </div> 
-    <div className="w-11/12 max-w-[1200px] mx-auto flex justify-center
+    <div className="w-12/12 max-w-[1200px] mx-auto flex justify-center
     item-center min-h-[50vh] flex-wrap">
     {
         loading ? (<Spinner/>) : (<Cards courses = {courses} category={category}/>)
